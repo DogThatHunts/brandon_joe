@@ -119,16 +119,69 @@ categories, resolver usage, pending-file shape). Verbatim fork prompt:
 >   this project's README and waypoint doc, so be concrete and complete, not
 >   just "done."
 
-Fork was still running as of this waypoint entry — not yet merged/reviewed.
+The fork's first stop was a no-op status report with no files written; it was
+resumed with an explicit "actually write the files, don't just report status"
+instruction and completed for real on the second pass — see its final report
+below.
+
+### Fork's final report
+
+- **Topic headings** (`BrandonJoe-ideas-CKC3.md`): Citizenship and
+  legal-fiction theory; Sole proprietorship/trusts and legal-beneficial
+  ownership; UCC Article 3, negotiable instruments, and "infinite money";
+  Taxes, "taxpayer," and IRS procedure; Foreign government, "peace," and
+  nation-building; Driving versus traveling, licensing, and jurisdiction;
+  Litigation procedure, discovery, and presumptions; Contracts, consideration,
+  and the "practice law without a license" template; Rules of professional
+  conduct, judicial canons, and bar complaints; Race, the 14th Amendment, and
+  his stated political goals. Plus "Flagged contradictions" (4) and "Episodes
+  by topic" roll-ups.
+- **Citations:** ~70 distinct identified; 12 already in `register.json`; 27
+  new/resolved staged in `_citation-register/pending/brandon_joe_2026-11-12.json`
+  (23 cases, 24 USC sections, 2 CFR sections); no register category exists for
+  UCC/CCC sections or CA Code of Civil Procedure/Evidence Code/Vehicle
+  Code/Rules of Professional Conduct — flagged in the sidecar rather than
+  force-fit.
+- **Flagged for human review (excluded from the pending file):** "Madden v.
+  Commissioner" (quoted holding actually matches *Madden v. Kentucky*, 1940);
+  "Heard v. Herge" (likely transcription error); "U.S. v. Valentine" (possible
+  conflict with the register's existing *Valentine v. United States ex rel.
+  Neidecker*); "Five Star Bank Cases" (no reporter cite given).
+- **Known gap:** ~600 lines of file 11 (Video 10, the Glendale discovery
+  breakdown) were judged repetitive of content already captured elsewhere and
+  not fully read — disclosed by the fork, not reflected as a citation/claim
+  gap in the output files themselves.
+- File 16 (final video) contains explicit racialized political content about
+  repealing the 14th Amendment; the ideas summary documents this factually,
+  per the prompt's no-fact-checking/no-editorializing instruction.
+
+### Site built, repo pushed, Pages enabled
+
+- Generated `summaries_html/brandonjoe-ideas.html` and
+  `summaries_html/citations-sidecar.html` via `pandoc --standalone --toc -c
+  ../style.css` from the two Markdown sources, then patched in the site-nav
+  bar and a cache-busting query string on the stylesheet link (matching
+  KL_on_RiceRadio's hand-maintenance convention exactly).
+- Built `index.html` (three cards: ideas summary, citation sidecar, inline
+  "Core Worldview" overview) and a 16-row "Source Videos & Transcripts" table
+  (Transcript / Summary / Episode-YouTube columns), using row data pulled
+  directly from the Transcription Queue sheet (rows 1273-1288) rather than
+  hand-typed, to avoid transcription errors in the URLs.
+- Wrote `README.md`, `style.css` (cool-blue, copied verbatim from
+  `kl/KL_on_Crrow/style.css` per the user's "cool temp css" instruction),
+  `.gitignore`, `.nojekyll`.
+- `git init`, committed, and — per explicit user confirmation via
+  AskUserQuestion — created the public GitHub repo
+  `DogThatHunts/brandon_joe`, pushed `main`, and enabled GitHub Pages
+  (root of `main`). Live at <https://dogthathunts.github.io/brandon_joe/>.
 
 ### Not yet done
 
-- Site HTML (`index.html`, `summaries_html/*.html`) — pending the fork's
-  summary/citation output.
-- README.md, top-level `.gitignore` entry for `brandon_joe/` (parent repo's
-  `.gitignore` doesn't yet list it — needs adding, same pattern as the other
-  independent-repo projects).
-- `git init` + GitHub remote + push (user explicitly approved this setup
-  style).
-- Citation-register merge review (new pending file needs human review before
-  being folded into `register.json`, per that repo's own convention).
+- Citation-register merge review: `_citation-register/pending/brandon_joe_2026-11-12.json`
+  needs human review before being folded into `register.json`, per that
+  repo's own convention (same as every other project's pending file).
+- The schema questions the sidecar raises (no register category for
+  UCC/CCC or CA state-law citations) are unresolved — a human decision, not
+  something this session should resolve unilaterally.
+- File 11's ~600-line gap (see above) could be revisited in a follow-up pass
+  if the user wants full coverage confirmed.
