@@ -1,5 +1,48 @@
 # Waypoint: brandon_joe
 
+## Resume here (as of end of 2026-11-12 session)
+
+Site is live and complete for its current scope: <https://dogthathunts.github.io/brandon_joe/>,
+linked live from the `_index_hub` top-level index. Everything below this
+section is session history; these are the open items for whoever (human or
+future session) picks this back up:
+
+1. **Citation-register merge review (highest priority open item).**
+   `_citation-register/pending/brandon_joe_2026-11-12.json` has 27 new,
+   resolved citations staged but **not merged** into `register.json` — needs
+   human review per that repo's own convention. Also unresolved: whether to
+   add new register categories for UCC/California-Commercial-Code sections
+   and California state law (Civil Procedure/Evidence/Vehicle Code/Rules of
+   Professional Conduct), all heavily cited in this series but currently
+   unmodeled in the shared schema. See `citations-sidecar.md`'s "Summary
+   counts" section and `README.md`'s "Citations" section for the full list
+   of flagged/excluded items (Madden v. "Commissioner", "Heard v. Herge",
+   possible Valentine-case conflict, etc.).
+2. **BJW-prefixed shorts/clips pass (tracked, not started).** 16 Queue-sheet
+   rows titled `BJW |...` (mostly YouTube Shorts, one longer interview, one
+   "Skool prep update") are separate from the 16 CKC 3.0 videos already
+   summarized. A "Coming soon" card on `index.html` notes this; no
+   transcripts pulled, no prompts written yet for this batch specifically
+   (would likely reuse/adapt `transcripts/prompts/summarize_ideas.md` and
+   `extract_citations.md`, or be its own lighter pass given Shorts are much
+   shorter than the CKC 3.0 videos).
+3. **File 11 coverage gap.** ~600 lines of
+   `11_20260806_City of Glendale Round 3 - First Discovery Packet
+   Breakdown...txt` (Video 10) were judged repetitive and not fully read by
+   the authoring fork — disclosed, not reflected as a gap in the output
+   files. Revisit only if full coverage needs confirming.
+4. **Untracked `books/` directory** (`books/TM_2000-25/TM 2000-25 - Army
+   Training Manual Regarding Citizenship.pdf`) sits in the working tree,
+   not created by this session and not committed — confirm with the user
+   whether it should be added before touching it.
+
+Not open, but worth knowing: the Data Card's 6 source-page backups
+(`sources/*.html` + `.md`) are a point-in-time snapshot (fetched
+2026-11-12) — if Brandon Joe edits those live pages, the backups will
+silently diverge; no refresh mechanism exists.
+
+---
+
 ## 2026-11-12 (later in the session): Data Card, BJW-shorts placeholder, hub link
 
 - Added `sources/` — local HTML + Markdown backups of 6 pages: Brandon Joe's
@@ -206,11 +249,5 @@ below.
 
 ### Not yet done
 
-- Citation-register merge review: `_citation-register/pending/brandon_joe_2026-11-12.json`
-  needs human review before being folded into `register.json`, per that
-  repo's own convention (same as every other project's pending file).
-- The schema questions the sidecar raises (no register category for
-  UCC/CCC or CA state-law citations) are unresolved — a human decision, not
-  something this session should resolve unilaterally.
-- File 11's ~600-line gap (see above) could be revisited in a follow-up pass
-  if the user wants full coverage confirmed.
+See "Resume here" at the top of this file for the current, consolidated
+list of open items.
