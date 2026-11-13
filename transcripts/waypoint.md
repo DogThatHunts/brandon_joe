@@ -1,5 +1,34 @@
 # Waypoint: brandon_joe
 
+## 2026-11-12 (later in the session): Data Card, BJW-shorts placeholder, hub link
+
+- Added `sources/` — local HTML + Markdown backups of 6 pages: Brandon Joe's
+  "onestupidfuck.com" step-by-step guide, state-citizen-resources, and
+  research-timeline pages, plus the Williams & Williams Law Firm home page,
+  "A Treatise on the Word 'Person'", and "Driving v. Traveling". Fetched via
+  `curl` (raw HTML preserved verbatim) and converted to Markdown with
+  `html2text` (installed in a throwaway venv, not a project dependency),
+  then hand-trimmed to drop duplicate nav-menu boilerplate at the top of
+  each file while keeping the real page content and footer verbatim.
+- Added a "Williams & Williams Data Card" to `index.html` linking each of
+  the 6 pages' live URL plus its local `.md`/`.html` backup.
+- Queried the Transcription Queue sheet's "Queue" tab (5601 rows) for titles
+  prefixed `BJW |` — found 16, distinct from the 16 CKC 3.0 videos already
+  covered (mostly YouTube Shorts, plus one longer interview and one "Skool
+  prep update"). Added a "Coming soon" card noting this as a tracked next
+  step, not yet scheduled or transcribed.
+- Added a "Last updated" line to the page footer.
+- Turned the Brandon Joe tile on the top-level `_index_hub/index.html` from
+  a placeholder into a live link to
+  <https://dogthathunts.github.io/brandon_joe/> (separate repo,
+  `kl-hub.git` — see that repo's own waypoint for its matching entry).
+- Removed a sentence from the intro paragraph per user request (the
+  "unlike the KL_on_RiceRadio/KL_on_Crrow projects this one is modeled on"
+  aside).
+- Left an untracked `books/` directory (containing a PDF, `TM_2000-25/TM
+  2000-25 - Army Training Manual Regarding Citizenship.pdf`) alone — it
+  wasn't created by this session's work and wasn't staged/committed.
+
 ## What was done (2026-11-12 session)
 
 ### Project scaffolded from the KL_on_RiceRadio model
