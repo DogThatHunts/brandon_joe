@@ -1,0 +1,148 @@
+/* brandon_joe — shared site stylesheet (cool blue, matches kl/KL_on_Crrow) */
+
+:root {
+    --bg: #eef4f9;
+    --bg-warm: #e3edf5;
+    --text: #16232e;
+    --text-light: #5b7286;
+    --accent: #1d5c9c;
+    --accent-dark: #14406e;
+    --border: #d7e3ec;
+    --code-bg: #e3edf5;
+    --quote-border: #6ea3cc;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 5rem;
+}
+
+h1, h2, h3, h4 {
+    color: var(--accent-dark);
+    line-height: 1.3;
+}
+
+h1 { font-size: 2rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
+h2 { font-size: 1.5rem; margin-top: 2.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; }
+h3 { font-size: 1.2rem; margin-top: 1.8rem; }
+
+a { color: var(--accent); }
+a:hover { color: var(--accent-dark); }
+
+blockquote {
+    border-left: 3px solid var(--quote-border);
+    margin: 1rem 0;
+    padding: 0.4rem 1rem;
+    background: var(--bg-warm);
+    color: var(--text-light);
+}
+
+code {
+    background: var(--code-bg);
+    padding: 0.15em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.2rem 0;
+    font-size: 0.95rem;
+}
+
+th, td {
+    border: 1px solid var(--border);
+    padding: 0.5rem 0.7rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+th { background: var(--bg-warm); }
+
+hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2.5rem 0;
+}
+
+.site-nav {
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+}
+
+.site-nav a { margin-right: 1rem; }
+
+.card-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+}
+
+.card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.2rem 1.4rem;
+    background: white;
+}
+
+.card h2 { margin-top: 0; border: none; font-size: 1.25rem; }
+
+.card p { color: var(--text-light); margin: 0.4rem 0 0; }
+
+.card ol {
+    margin: 0.6rem 0 0;
+    padding-left: 1.4rem;
+    color: var(--text);
+}
+
+.card ol li { margin-bottom: 0.6rem; }
+
+.card ol li:last-child { margin-bottom: 0; }
+
+.card ol strong { color: var(--accent-dark); }
+
+.av-table-wrap {
+    overflow-x: auto;
+}
+
+.av-table-wrap table {
+    margin: 1.2rem 0 0;
+    table-layout: fixed;
+}
+
+.av-table-wrap th:nth-child(1),
+.av-table-wrap td:nth-child(1),
+.av-table-wrap th:nth-child(2),
+.av-table-wrap td:nth-child(2) {
+    width: 12%;
+}
+
+.av-table-wrap th:last-child,
+.av-table-wrap td:last-child {
+    white-space: nowrap;
+    width: 76%;
+}
+
+.av-table-wrap tbody tr:last-child td {
+    background: var(--bg-warm);
+}
+
+#TOC {
+    background: var(--bg-warm);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0 2rem;
+    font-size: 0.95rem;
+}
+
+#TOC ul { padding-left: 1.2rem; }
