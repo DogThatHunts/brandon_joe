@@ -2,10 +2,10 @@
 
 ## Resume here (as of end of 2026-11-17 session)
 
-**State:** all site/summary changes are local and **uncommitted, unpushed**, awaiting the user's review
-(local link: file:///Users/edward/Projects/law_sovereignty/brandon_joe/index.html). The register repo
-(`_citation-register`) has its changes **committed locally** (`d340709`, `f6ba310`), not pushed anywhere.
-`books/` deliberately left out. Live site is still the 2026-11-12 version until pushed.
+**State (updated later 2026-11-17):** everything is **committed and pushed**. `brandon_joe` is at `d7910b5`
+on `main`, so the live site and raw transcript links for files 17–19 should be live after the Pages rebuild
+(not yet checked in a browser). The register repo (`DogThatHunts/citation-register`, private) is pushed
+`a963250..f6ba310`. `books/` deliberately left out. Untracked: `CITATIONS_IMPROVEMENT.MD` (new, see item 0).
 
 ### Done this session
 - **Table (`index.html`):** Videos 1–15 (files 02–16) first, then Post Course Videos 1–4 (files 01, 17, 18,
@@ -22,8 +22,17 @@
   "Haynes v. Kerner" corrected to Haines v. Kerner.
 
 ### Open items (in priority order)
-1. **Review, then commit + push** this repo (raw transcript links for files 17–19 404 until pushed, since
-   they point at GitHub raw on `main`). Ask before pushing.
+0. **NEW: citations-improvement plan** — see `../CITATIONS_IMPROVEMENT.MD` (user prompt + Claude's plan). Goal:
+   feed unresolved/missing citations from every summarization back to the register. Steps: (1) fill register
+   Constitution gaps (all 27 amendments, Articles I–VII, Preamble, aliases like "21st"/"Twenty-First", merge
+   duplicate 16th/Sixteenth, clause resolver); (2) 3-bucket citation pass (Linked / Resolved-now / Unresolved);
+   (3) `tools/triage.py` + per-project unresolved files; (4) `link_citations.py` post-pandoc linker;
+   (5) test on the transcript-summaries "legal-non-taxpayer-audiobook-6060" page (22 listed misses) and the 19
+   brandon_joe transcripts. **Awaiting user answers to 4 questions:** (a) path of the `transcript-summaries`
+   project (not among sibling dirs); (b) Constitution computed resolver vs enumerated records (recommend both);
+   (c) schema home for Federal Rules / state codes (recommend `court_rules` + `state_statutes`); (d) retroactive
+   linking (recommend brandon_joe + that page first). Start with step 1 once (b) is answered.
+1. **Verify the live site** after the Pages rebuild (index table order, files 17–19 raw links, summary pages). Review/commit/push is DONE.
 2. **"U.S. v. Valentine" — TBD, do not forget.** Brandon Joe's quote ("the only absolute and unqualified
    right of citizenship…", files 02, 19) is NOT in the register's *Valentine v. U.S. ex rel. Neidecker*
    (full text checked). File 19 says it is a Puerto Rico case; unverified lead *United States v. Valentine*,
@@ -34,7 +43,7 @@
    owner" case (maybe RZS Holdings v. PDVSA Petroleo, 506 F.3d 350 — unverified); plus a schema decision for
    Federal Rules / California codes / local rules.
 4. **Register follow-ups:** spot-check a few Justia-pattern case URLs in a browser (Justia 403s scripts);
-   re-check 20 C.F.R. § 422.104 (503 on the check run); push/backup the register repo if it has a remote.
+   re-check 20 C.F.R. § 422.104 (503 on the check run); register push is DONE.
 5. **Duplicate queue rows — resolve later (user request):** "Post Course Video 2" at rows 1375, 1492, 1537
    (1537 used); "Post Course Video 1" at rows 1274 and 1540 (1273/1274 used). Check which duplicates carry a
    transcript/summary before removing any.
