@@ -8,7 +8,7 @@ repo's `SCHEMA.md`).
 
 ## Input
 
-All `.txt` files in `transcripts/TXT/` (16 transcripts total):
+All `.txt` files in `transcripts/TXT/` (19 transcripts total; files 17–19 added 2026-11-17):
 
 1. `01_20260806_CKC 3.0 Post Course Video 1 - Practising Law Without a License and First Amended_0bec3cba.txt`
 2. `02_20260806_CKC 3.0 - Video 1 - Citizenship for Men_ Women and Children _not legal fictions__84335cec.txt`
@@ -26,6 +26,9 @@ All `.txt` files in `transcripts/TXT/` (16 transcripts total):
 14. `14_20260806_CKC 3.0 - Video 13 - Rules of Professional Conduct _BAR Card Slave Code__3a61ab9c.txt`
 15. `15_20260806_CKC 3.0 - Video 14 - Judicial Canons_ Local Rules_ Appellate Rules_53a4934c.txt`
 16. `16_20260807_CKC 3.0 - Video 15 - Final Thoughts_ Important Info and Goodbye_991a78e2.txt`
+17. `17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt`
+18. `18_20260824_CKC 3.0 Post Course Video 3 - Promissory Note Template and Various Payment Metho_e683da4a.txt`
+19. `19_20261117_CKC 3.0 Post Course Video 4 - School Launch Plan and Case 15 Filings_efb3348a.txt`
 
 There is a single speaker throughout (Brandon Joe) — no host, so no speaker
 attribution ambiguity. The transcripts use timestamps (`[0.0s - 11.0s]`) without

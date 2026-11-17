@@ -1,6 +1,53 @@
 # Waypoint: brandon_joe
 
-## Resume here (as of end of 2026-11-12 session)
+## Resume here (as of end of 2026-11-17 session)
+
+**State:** all site/summary changes are local and **uncommitted, unpushed**, awaiting the user's review
+(local link: file:///Users/edward/Projects/law_sovereignty/brandon_joe/index.html). The register repo
+(`_citation-register`) has its changes **committed locally** (`d340709`, `f6ba310`), not pushed anywhere.
+`books/` deliberately left out. Live site is still the 2026-11-12 version until pushed.
+
+### Done this session
+- **Table (`index.html`):** Videos 1–15 (files 02–16) first, then Post Course Videos 1–4 (files 01, 17, 18,
+  19), with two sub-header rows. File numbers were NOT renamed (summaries/citations cite by number), so the
+  first column reads 02…16, 01, 17, 18, 19. Footer date and counts updated; all 19 Summary links HTTP 200.
+- **New transcripts 17–19** (Queue rows 1537, 1568, 6105) pulled from Drive into `transcripts/TXT/`.
+  Ideas summary (section "Post-course videos 2–4", 4 new roll-up contradictions), sidecar section 7, prompt
+  file lists (16 -> 19) and README updated; both summary HTML pages regenerated (pandoc + nav bar + `?v=20261117`).
+- **Citations merged** into `register.json` (`f6ba310`): brandon_joe 11-12 + 11-17 supplement + the sibling
+  `KL_on_RiceRadio` pending file; first 23 `ucc_sections` records; 26 cases, 29 USC, 1 CFR, 3 Acts. The
+  2026-08-19 `ucc_sections`/`ucc` resolver/OC-10 changes were committed first (`d340709`). Pending files now in
+  `_citation-register/pending/merged/`; merge script `tools/apply_brandon_joe_and_KL_2026-11-17.py`.
+  User-confirmed: Blonder-Tongue, 402 U.S. 313, 323-24 (1971); In re Najour, 174 F. 735 (N.D. Ga. 1909).
+  "Haynes v. Kerner" corrected to Haines v. Kerner.
+
+### Open items (in priority order)
+1. **Review, then commit + push** this repo (raw transcript links for files 17–19 404 until pushed, since
+   they point at GitHub raw on `main`). Ask before pushing.
+2. **"U.S. v. Valentine" — TBD, do not forget.** Brandon Joe's quote ("the only absolute and unqualified
+   right of citizenship…", files 02, 19) is NOT in the register's *Valentine v. U.S. ex rel. Neidecker*
+   (full text checked). File 19 says it is a Puerto Rico case; unverified lead *United States v. Valentine*,
+   288 F. Supp. 957 (D.P.R. 1968). Needs a legal-database search. Tracked in the register's `TBD_later.md`.
+3. **Other unresolved citations** (register `TBD_later.md`, "2026-11-17 brandon_joe unresolved"):
+   Madden v. "Commissioner" (likely Madden v. Kentucky), Heard v. Herge, Five Star Bank Cases, three
+   unnamed CJS cases, an IRM provision, the unnamed Fourth Circuit "no legal existence apart from its
+   owner" case (maybe RZS Holdings v. PDVSA Petroleo, 506 F.3d 350 — unverified); plus a schema decision for
+   Federal Rules / California codes / local rules.
+4. **Register follow-ups:** spot-check a few Justia-pattern case URLs in a browser (Justia 403s scripts);
+   re-check 20 C.F.R. § 422.104 (503 on the check run); push/backup the register repo if it has a remote.
+5. **Duplicate queue rows — resolve later (user request):** "Post Course Video 2" at rows 1375, 1492, 1537
+   (1537 used); "Post Course Video 1" at rows 1274 and 1540 (1273/1274 used). Check which duplicates carry a
+   transcript/summary before removing any.
+6. **BJW shorts pass** (16 `BJW |` rows; "Coming soon" card on the site) — not started.
+7. **File 11 coverage gap** (~600 lines of Video 10 not fully read) — revisit only if full coverage matters.
+8. **Untracked `books/`** (TM 2000-25 PDF) — confirm with the user before adding.
+
+---
+
+## Previous: Resume here (as of end of 2026-11-12 session)
+
+_(Item 1 below — the citation-register merge — was completed 2026-11-17; see the section above.)_
+
 
 Site is live and complete for its current scope: <https://dogthathunts.github.io/brandon_joe/>,
 linked live from the `_index_hub` top-level index. Everything below this

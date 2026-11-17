@@ -1,8 +1,8 @@
 # brandon_joe
 
 Video-transcript summaries for Brandon Joe's "Civilian Knowledge Course 3.0"
-(CKC 3.0) series, plus two related "City of Glendale Round 3" litigation
-case-breakdown videos. Modeled on `KL_on_RiceRadio` / `KL_on_Crrow`, but unlike
+(CKC 3.0) series — course videos 1–15 plus four "Post Course" videos — and two
+related "City of Glendale Round 3" litigation case-breakdown videos. Modeled on `KL_on_RiceRadio` / `KL_on_Crrow`, but unlike
 those two projects there is a single speaker throughout (Brandon Joe) — no
 host, no speaker-attribution ambiguity.
 
@@ -10,7 +10,7 @@ host, no speaker-attribution ambiguity.
 
 ```
 transcripts/
-  TXT/          # 16 raw transcripts, timestamped, no speaker tags
+  TXT/          # 19 raw transcripts, timestamped, no speaker tags
   prompts/      # the two independent analysis passes run over TXT/
     summarize_ideas.md       # topic-organized summary of his legal claims
     extract_citations.md     # legal/tax citation extraction
@@ -22,11 +22,24 @@ transcripts/
 ## Source
 
 Rows 1273-1288 of the "Queue" tab in the project owner's Transcription Queue
-Google Sheet — source videos are YouTube uploads, transcribed and summarized
-through that pipeline. File `01` is "CKC 3.0 Post Course Video 1"; files
-`02`-`16` are CKC 3.0 Videos 1-15. Files `10`-`11` are two litigation-specific
+Google Sheet (files `01`-`16`), plus rows 1537, 1568 and 6105 (files `17`-`19`,
+Post Course Videos 2-4, added 2026-11-17) — source videos are YouTube uploads,
+transcribed and summarized through that pipeline. File `01` is "CKC 3.0 Post
+Course Video 1"; files `02`-`16` are CKC 3.0 Videos 1-15; files `17`-`19` are
+Post Course Videos 2, 3 and 4. Files `10`-`11` are two litigation-specific
 "City of Glendale Round 3" case-breakdown videos rather than general course
 content, numbered into the same sequence.
+
+File numbers are stable identifiers (the summaries and citation files refer to
+videos by them) and do not match the order shown on the site: `index.html`
+lists Videos 1-15 first (files 02-16), then the Post Course videos in order
+(files 01, 17, 18, 19).
+
+**Duplicate queue rows (to resolve later):** the sheet has several rows for the
+same title — "Post Course Video 2" at rows 1375, 1492 and 1537 (this project
+uses 1537), and "Post Course Video 1" at rows 1274 and 1540 (this project uses
+the 1273/1274 row). Not yet reconciled; check whether the duplicates differ in
+transcript or summary status before deleting any.
 
 ## Citations
 
@@ -38,28 +51,19 @@ copy of citation data — `transcripts/summaries/citations-sidecar.md` is a
 human-readable locating index (quotes + file references), not the data of
 record.
 
-As of 2026-11-12, the citation scan is complete but **not yet merged**: ~70
-distinct citations found; 12 already existed in `register.json`; 27 new,
-resolved citations (mostly cases and USC/CFR sections) are staged in
-`_citation-register/pending/brandon_joe_2026-11-12.json`, awaiting human
-review per that repo's convention. A handful of ambiguous/unresolved
-references were deliberately left out of the pending file rather than
-guessed — see `citations-sidecar.md`'s "Summary counts" section:
+**Merged 2026-11-17** into the shared register (commit `f6ba310` in `_citation-register`): the
+2026-11-12 pending file (files 01-16), a 2026-11-17 supplement for files 17-19 (Post Course Videos 2-4),
+and the sibling `KL_on_RiceRadio` pending file. Added 26 cases, 29 USC sections, 1 CFR section, 23 UCC
+sections (the first records in the new `ucc_sections` category) and 3 Acts of Congress; the pending
+files now live in `_citation-register/pending/merged/`. Case URLs were checked before merge (see that repo's
+CHANGELOG). Items deliberately left out are tracked in that repo's `TBD_later.md` ("2026-11-17 brandon_joe
+unresolved"):
 
-- **"Madden v. Commissioner"** — the quoted holding actually matches *Madden
-  v. Kentucky* (1940); name/holding mismatch, needs confirmation before merge.
-- **"Heard v. Herge"** — unconfirmed, likely a transcription error.
-- **"U.S. v. Valentine"** — possible conflict with the register's existing
-  *Valentine v. United States ex rel. Neidecker*; flagged, not merged.
-- **"Five Star Bank Cases"** — no reporter citation given in the transcript.
-- Three unnamed cases cited via Corpus Juris Secundum, and an unspecified IRM
-  provision re: endorsing IRS bills back to the agency.
-
-The sidecar also flags that the shared register's schema has **no category**
-for UCC/California Commercial Code sections, or for California Code of Civil
-Procedure / Evidence Code / Vehicle Code / Rules of Professional Conduct —
-all heavily cited across this series (UCC Article 3 especially, since Video 4
-is dedicated to it) — for human decision on whether/how to extend the schema.
+- **"U.S. v. Valentine"** — *not* the register's *Valentine v. U.S. ex rel. Neidecker* (the quote is not in that opinion); likely a Puerto Rico case, unidentified. **TBD — do not forget.**
+- **"Madden v. Commissioner"** — the quoted holding matches *Madden v. Kentucky* (1940); confirm before adding.
+- **"Heard v. Herge"** — likely a transcription error.
+- **"Five Star Bank Cases"**, three unnamed Corpus Juris Secundum cases, an unspecified IRM provision, the unnamed Fourth Circuit "sole proprietorship" case — no usable cite yet.
+- No register category yet for the Federal Rules, California Code of Civil Procedure / Evidence Code / Vehicle Code / Rules of Professional Conduct, or local rules.
 
 ## Ideas summary
 

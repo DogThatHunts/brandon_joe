@@ -1,8 +1,9 @@
 # Brandon Joe Williams' Legal Ideas, by Topic
 
-Summary of Brandon Joe Williams' legal claims and arguments across all 16 transcripts of his
+Summary of Brandon Joe Williams' legal claims and arguments across all 19 transcripts of his
 "Civilian Knowledge Course 3.0" (CKC 3.0) video series plus two related "City of Glendale Round 3"
-litigation case-breakdown videos (source: `transcripts/TXT/01`–`16`). Brandon Joe is the sole
+litigation case-breakdown videos (source: `transcripts/TXT/01`–`19`; files 17–19, the Post Course
+Videos 2–4, were added 2026-11-17 and are covered in their own section below the original topics). Brandon Joe is the sole
 speaker throughout — no host, unlike the KL_on_Crrow/KL_on_RiceRadio projects these notes are
 modeled on. Organized by topic rather than chronologically. This is a summary of what he said,
 not a legal assessment — citations are not verified here (see `citations-sidecar.md` for that
@@ -383,6 +384,188 @@ notice" rather than an outcome he is causing.
 
 ---
 
+## Post-course videos 2–4 (files 17–19), added 2026-11-17
+
+Three later "Post Course" videos (Videos 2, 3 and 4), released after the 15-video course and filed
+under the same CKC 3.0 series. They are organized by topic below rather than per video, and every
+entry links to its source file. File 01 (Post Course Video 1) is covered in the topic sections
+above; these three were added in a second pass. Content note: all three contain the same
+racialized framing and slurs as the earlier videos; as in the rest of this document the claims are
+reported factually and the slurs are not reproduced.
+
+- **17** — Post Course Video 2: walkthrough of the federal complaint in "City of Glendale Round 5" (Case 15), a template for a federal-court version of the Round 3 state complaint.
+- **18** — Post Course Video 3: a promissory-note template and four "methods of performance" (payment).
+- **19** — Post Course Video 4: a status report on Case 15's docket (motion to dismiss, magistrate's report and recommendation, his objections), plus an announcement of a paid Skool community group.
+
+### Case 15 (federal) complaint: two plaintiffs, one filing (17, 19)
+
+**Claim:** The federal complaint again splits the plaintiff in two — the sole proprietorship
+("BRANDON JOE WILLIAMS®", a 14th-Amendment "citizen of Congress" and California *resident*) and
+Brandon Joe Williams the "white citizen of California" (not a resident, domiciled in California,
+privileges and immunities from the California Constitution of 1849 and Art. IV §2 cl. 1) — and
+sorts each cause of action to whichever of the two can bring it. Federal question jurisdiction is
+claimed for the whole filing. He says it is a template usable in any state, with a few
+state-specific swaps (e.g., the attorney-oath statute).
+
+- **Support:** Paul v. Virginia (artificial persons cannot be state citizens); Santa Clara County v. Southern Pacific (corporations added to the 14th-Amendment class); Slaughterhouse Cases, Bradwell v. State, Van Valkenburgh v. Brown, U.S. v. Anthony, Twining v. New Jersey; Ex parte Knowles (Cal. 1855); Downes v. Bidwell ("two national governments"); Hepburn & Dundas v. Ellzey and National Mutual Ins. v. Tidewater Transfer (disparity of citizenship); a pending Supreme Court cert petition (No. 25-1221) offered as evidence that a split two-plaintiff filing is docketable under Supreme Court Rule 9.1; Cal. Bus. & Prof. Code § 6067 (attorney oath).
+- **Source:** [17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "legal fictions cannot be citizens of a state"; [17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "Citizen of Congress means citizen of the legislative branch"; [17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "You can use this federal complaint anywhere in the country".
+
+**Jury and trial structure.** He demands a jury under the Seventh Amendment for himself, to be
+composed entirely of white citizens of California domiciled in the greater Los Angeles area, and
+separately a 14th-Amendment-citizen jury for the sole proprietorship; he says a trial would need
+to split into two trials or a bench trial, and offers his audience's help "building" the jury.
+Source: [17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "the jury must be composed of 14th amendment us citizens" (sole-proprietorship paragraph); same file, "split into two separate trials with two separate juries".
+
+**Why separate federal and state suits.** He keeps the California Commercial Code causes of action
+in the state case and puts only federal causes of action in this one, because he believes a single
+federal cause of action in a state complaint lets the defendant remove the whole case to federal
+court. Source: [17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "I didn't put a single federal cause of action into the state case".
+
+**Federal courts use D.C. code.** He claims all federal courts operate under 4 U.S.C. § 72, so
+the UCC section numbers are cited as "D.C. Code § 28:3-104" etc. in federal filings, and as CCC
+sections in state ones (same wording; the CCC just says "division" where the UCC says "article").
+Source: [17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "operating under 4 U.S.C. 72"; [19](../TXT/19_20261117_CKC 3.0 Post Course Video 4 - School Launch Plan and Case 15 Filings_efb3348a.txt), "federally that would be the DC Code Section 283-105".
+
+### Amendment-by-amendment causes of action (17)
+
+**Claim:** Each cause of action is assigned by amendment and by plaintiff. The sole proprietorship
+reaches the 1st, 4th and 5th Amendments only through the incorporation doctrine (cases: Gitlow v.
+New York for the 1st; Mapp v. Ohio for the 4th; Chicago, Burlington & Quincy v. City of Chicago
+for the 5th; Hamilton v. Regents and Cantwell v. Connecticut for free exercise) and has *direct*
+access to the 13th, 14th and 15th Amendments, which he says were made for freed slaves and later
+for legal fictions. Brandon Joe Williams, as a white citizen of California, claims the Bill of
+Rights directly, including the 3rd, 7th, 9th and 10th, which he says were never incorporated. The
+9th Amendment is called "the sovereignty amendment": it covers every unenumerated right (driving,
+fishing, practicing law, having a business or a bank account) and is where the phrase "sovereign
+citizen" comes from, and licensing requirements of any kind apply only to 14th-Amendment citizens.
+The power-shutoff facts (about seven hours on January 13) are mapped onto each.
+
+- **Support:** the cases above; Dred Scott v. Sandford (Taney's "members of the sovereignty" language, which he defends as the correct reading); 18 U.S.C. § 1595 for a civil peonage/forced-labor claim ("private right of action"); 42 U.S.C. §§ 1981–1983 as statutes he says came from the 1866 Civil Rights Act and belong only to the sole proprietorship; 4 U.S.C. § 72; Federal Rule of Evidence 301 (the defendant may rebut that the drafts are negotiable, which he says "seems like an impossible fact to rebut").
+- **Source:** [17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "The Ninth Amendment is essentially The sovereignty amendment"; same file, "Sol Prop has direct access to the 13th, 14th and 15th Amendments"; same file, "private right of action in a civil case for the statutory avenue of relief is available via 18 U.S.C. 1595".
+
+> **Contradiction:** He says "Sol Prop" is a mere vehicle with no flesh body ("he is unable to
+> negotiate notes and drafts") and so the white citizen must endorse the drafts, yet the sole
+> proprietorship is also a plaintiff with its own constitutional causes of action and its own
+> damages. Compare [17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "SolProp has no physical flesh body" with the same file's "SolProp has suffered actual damages".
+
+**Relief.** He asks for $50,000: payable in legal tender (31 U.S.C. § 5103) on the sole
+proprietorship's claims, and in gold and silver coin (Art. I, § 10) on his own, bridged by an
+escrow company (itself a 14th-Amendment citizen) treating the coins as commodities, which he
+likens to the way the Legal Tender Cases treated them. Source: [17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "payable on gold and silver coins if under causes of action by me".
+
+### Promissory-note template and four methods of payment (18)
+
+**Claim:** There are four ways to "perform" a bill: (1) the ordinary route — Federal Reserve notes,
+checks, or a credit-card transaction, which he says is the user generating a new unconditional
+promise to pay as representative of the sole proprietorship, the "issuer" (UCC 3-105); (2)
+endorse the draft the creditor sent and return it as payment (the flowchart already used in the
+Round 3 and Round 5 complaints); (3) the new template — issue a brand-new promissory note
+yourself, with no credit card or bank; (4) a route he found only while building the flowchart:
+simply dishonor the creditor's draft without accepting it, so that UCC 3-414(b) makes the
+drawer liable to pay it. He presents (3) as the new contribution of this video and says (4) is
+"above my pay grade."
+
+- **Support:** Art. I, § 10 (no state may make anything but gold and silver a tender in payment of debts) as the reason a white citizen of a state cannot pay in Federal Reserve notes at all and must act through the sole proprietorship; UCC/CCC 3-105 (issue), 3-402(b) (a representative who signs for a named principal is not liable on the instrument), 3-104(a) (the three requirements for negotiability), 3-205 and 3-108 (defaults to bearer and to on-demand), 3-302 (holder in due course, offered as a reason to notarize the note), 3-602/3-603 and 3-502 (payment, tender, dishonor), 3-303(b) (defense of no consideration), 3-414(b) (drawer's obligation), 1-305 (liberal administration of remedies), 9-307(h) (the "United States" is located in D.C.); Paul v. Virginia for the "natural people" terminology; a FOIA request to D.C. asking where in D.C. the "United States" is located, which he says was refused.
+- **Source:** [18](../TXT/18_20260824_CKC 3.0 Post Course Video 3 - Promissory Note Template and Various Payment Metho_e683da4a.txt), "generating a note using a credit card makes you the representative"; same file, "the representative is not liable on the instrument"; same file, "it automatically defaults to payable to bearer"; same file, "the drawer is obligated to pay the draft"; same file, "this one is above my pay grade".
+
+**Template specifics.** The note names the sole proprietorship as issuer (with a "date of birth" taken
+from the registration date on the certificate of live birth; "on or about" birth plus two weeks if
+the certificate is not yet in hand), himself as representative and white citizen of California, a
+named payee "to order," payable on demand, unconditional, stapled to the bill it satisfies, and
+sent by registered or certified mail. A notary jurat can be added, with language reciting it was
+notarized to let the holder be a holder in due course under CCC 3302. A process server's affidavit
+is suggested as proof of delivery when a creditor denies receipt. Source: [18](../TXT/18_20260824_CKC 3.0 Post Course Video 3 - Promissory Note Template and Various Payment Metho_e683da4a.txt), "date of birth of the sole proprietorship"; same file, "this note has been notarized to allow the original holder to be the holder in due course".
+
+**"Litigation is part of the process."** He tells viewers that sending a note is step two of three
+and that suing when it is not processed is step three, not an optional fallback; he says the
+video makes SESTIC/A4V-style trusts, remittance schemes and "accepted for value" obsolete. Source: [18](../TXT/18_20260824_CKC 3.0 Post Course Video 3 - Promissory Note Template and Various Payment Metho_e683da4a.txt), "Litigation is not optional"; same file, "Accepted for value is all obsolete".
+
+> **Contradiction:** The video's framing is that the template lets viewers "produce your own
+> currency anytime you want" and that "everything becomes very, very legal" through the sole
+> proprietorship, but he also says in the same video that how rights differ between a holder and
+> a non-holder is something he cannot find authority on ("there doesn't really seem to be any
+> cases ever talking about it"), that the video is "a little more sloppy than usual," and that it is
+> "still not super clear for me" — in the same recording in which he predicts one of his "most viral videos ever."
+> See [18](../TXT/18_20260824_CKC 3.0 Post Course Video 3 - Promissory Note Template and Various Payment Metho_e683da4a.txt), "produce your own currency anytime you want" against the same file's "this one is above my pay grade".
+
+> **Contradiction:** He now says he is "not so worried" about the term "natural person" ("this
+> terminology no longer bothers me"), having earlier avoided it; and he advises skipping small
+> claims for negotiable-instrument cases ("you may want to just go straight to state"), while
+> earlier videos promoted small claims as the starting point. See [18](../TXT/18_20260824_CKC 3.0 Post Course Video 3 - Promissory Note Template and Various Payment Metho_e683da4a.txt), "natural people" and "You may want to just go straight to state".
+
+### Case 15 docket: motion to dismiss, magistrate's recommendation, objections (19)
+
+**Claim:** The City's motion to dismiss argued (1) the whole complaint is barred by res judicata
+and collateral estoppel because three earlier suits (2024 federal; small claims; Round 3 state
+case) covered the same self-stamped bills, and (2) no claim is supported by the facts. The
+magistrate judge's report and recommendation (Nov. 5) recommends dismissal without leave to amend,
+construes the two plaintiffs as one for res judicata purposes because "a sole proprietorship has no
+legal existence apart from its owner," and describes the case as a § 1983 civil-rights case. He
+filed objections on Nov. 14 (deadline Nov. 19); the City has 14 days to respond; the district judge
+then decides.
+
+**His response.** His opposition and objections argue: (a) res judicata fails on the parties — the
+white citizen was first added in the state case's amended complaint and was never a party before,
+and a sole proprietorship cannot be a citizen of a state (Paul v. Virginia; 28 U.S.C. § 1391(c)(2);
+Fed. R. Civ. P. 17(b)(3)(A) and 23.2, which he reads as letting an unincorporated association sue
+and be represented without a lawyer); (b) the drafts in each case are different instruments, so
+no nexus; the small claims case was dismissed for lack of damages only; (c) the Round 3 state case
+is on appeal, so its judgment cannot yet be used as res judicata; (d) the Fourth Circuit footnote
+the R&R relies on is merely persuasive in the Ninth Circuit, the owner there, he argues, can be presumed under Rule 301 to have been a
+federal-class citizen (so the court could treat him and his business as one), and the court
+there never resolved the business's form; (e) the R&R misapplies "payment" — an accepted and
+returned draft is payment, and under CCC 3414(b) a dishonored draft would be payment anyway;
+(f) it is not a civil-rights case (he says he checked the "140 negotiable instrument" box and
+that 42 U.S.C. § 1983 belongs only to the sole proprietorship); and (g) the R&R never denies the
+state/federal citizenship distinction or that the drafts are drafts under CCC 3-104, which he
+reads as concession.
+
+- **Support:** Blonder-Tongue Laboratories (res judicata standards, spoken as "Blondertongue Lab standards"); Haines v. Kerner (leniency for pro se litigants); In re Najour (1909, a Syrian applicant held "white"), invoked to argue the Fourth Circuit owner may have been white; Hague v. CIO (1939) and Dred Scott v. Sandford on the 1866 Civil Rights Act and on "persons"; U.S. v. Anthony; Jones v. Temmer; U.S. v. Valentine (which he says arose in Puerto Rico, a territory, which is why the court speaks only of "citizenship"); Federal Rule of Evidence 301; Cal. Code Civ. Proc. (successive actions on one contract); L.R. 7-3 meet-and-confer.
+- **Source:** [19](../TXT/19_20261117_CKC 3.0 Post Course Video 4 - School Launch Plan and Case 15 Filings_efb3348a.txt), "the entire complaint is barred by the doctrines of Res Judicata"; same file, "a brand new party has appeared"; same file, "Objection 7. The state case is currently being processed for appeals"; same file, "the drafts would have been a payment regardless of whether they accepted or not"; same file, "sole proprietorship has no legal existence apart from its owner".
+
+**Race inside the litigation.** He argues the magistrate "grossly misclassif[ied] Brandon Joe
+Williams as a Negro," says the R&R "does not deny" he is a white citizen of California, and
+speculates about the race and birthplace of the magistrate and the district judge from their
+photographs and biographies. In the opposition he writes that if he called himself a U.S. citizen
+he would "be committing treason" to California and the United States, for which "the only correct
+punishment for such an egregious crime would be death." Source: [19](../TXT/19_20261117_CKC 3.0 Post Course Video 4 - School Launch Plan and Case 15 Filings_efb3348a.txt), "the only correct punishment for such an egregious crime would be death"; same file, "It is not in the discretion of this court to remove any of the Bill of Rights".
+
+> **Contradiction:** On Dred Scott and state citizenship: the earlier videos describe state
+> citizenship as reserved for free white persons (e.g. [02](../TXT/02_20260806_CKC 3.0 - Video 1 - Citizenship for Men_ Women and Children _not legal fictions__84335cec.txt)); here, after a challenge from another YouTuber, he adds that "four states even after the Dred Scott decision" (Massachusetts, New Hampshire, Vermont, Maine) "still permitted Negroes to be citizens of a state," and says he has added this to the Treatise on the Word "Person" — while maintaining that Dred Scott shut such citizens out of Art. IV §2 cl. 1. See [19](../TXT/19_20261117_CKC 3.0 Post Course Video 4 - School Launch Plan and Case 15 Filings_efb3348a.txt), "which still permitted Negroes to be citizens of a state". This refines but sits in tension with the "state citizen = white" framing of earlier episodes, including his own statement in [17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "every single class that is not a white citizen of a state" defaults to resident.
+
+### Race, the 14th Amendment, and stated political goals (17, 18, 19)
+
+**Claim:** Consistent with file 16, the three videos tie the legal theory to a racial sorting
+scheme. In 17 he says that non-whites are all "residents" and that the only way out is to claim
+whiteness and "see if anybody fights that," or the (unresearched) Title 25 / Indian-law route; he
+says that if he were president of "the republic," repeal of the 14th Amendment would require
+deciding "what we're gonna do with all the non whites," proposing a naturalization process
+(English, oath, inspection of moral character) that he says would differ for non-whites. In 18 he
+says that, at this point in his research, much of what he sees is "a shadow war essentially against
+Christians and white people." In 19 he says that by early 2027 "we are already going to be well on
+our way to destroy the 14th Amendment," with membership revenue from the school group to be spent
+on large-scale advertising of the Treatise and the free course.
+
+- **Source:** [17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "what we're gonna do with all the non whites"; [18](../TXT/18_20260824_CKC 3.0 Post Course Video 3 - Promissory Note Template and Various Payment Metho_e683da4a.txt), "shadow war essentially against Christians and white people"; [19](../TXT/19_20261117_CKC 3.0 Post Course Video 4 - School Launch Plan and Case 15 Filings_efb3348a.txt), "we are already going to be well on our way to destroy the 14th Amendment".
+
+> **Contradiction:** [19](../TXT/19_20261117_CKC 3.0 Post Course Video 4 - School Launch Plan and Case 15 Filings_efb3348a.txt) says "research is done pretty much" and there will be no "4.0" course, because the
+> case law is now organized and easy to explain; yet the same video and [18](../TXT/18_20260824_CKC 3.0 Post Course Video 3 - Promissory Note Template and Various Payment Metho_e683da4a.txt) repeatedly say key pieces are
+> unresolved — what to call a California citizen visiting New York, how a holder differs from a
+> non-holder, whether a dishonored draft works at all (3-414(b)), and how Art. IV §2 cl. 1
+> interacts with the Supremacy Clause ("there's like no court cases talking about this").
+
+### Stated plan for the "school" community (19)
+
+Logistics are mostly excluded as sales material, but his stated litigation aim is relevant: the group's
+"primary focus" is getting members through discovery as fast as possible, on the premise that
+once someone can issue discovery requests "you can figure out the rest"; he proposes pooling
+discovery obtained "from across the whole country" into "a central mainframe" for members to use
+in their own cases, with the stated aim of defeating traffic enforcement, licensing, police
+conduct and business licensing. He also says unlicensed storefront businesses would be opened to
+provoke and then sue city enforcement. Source: [19](../TXT/19_20261117_CKC 3.0 Post Course Video 4 - School Launch Plan and Case 15 Filings_efb3348a.txt), "The primary focus in the group is going to be discovery"; same file, "take all that fucking discovery from across the whole country".
+
+---
+
 ## Flagged contradictions (roll-up)
 
 1. **Race as legal fact vs. unenforceable presumption.** The 9th Amendment / state citizenship is
@@ -403,21 +586,33 @@ notice" rather than an outcome he is causing.
    of election," "non-citizen national" status, calling himself a "sovereign citizen" an oxymoron)
    were "all horse shit," while continuing to recommend some structurally similar devices (e.g.,
    self-naturalizing trusts into foreign jurisdictions at will) without flagging the parallel.
+5. **"Research is done" vs. open core questions (17–19).** "Research is done pretty much" and
+   "I don't really think there's going to be a 4.0" ([19](../TXT/19_20261117_CKC 3.0 Post Course Video 4 - School Launch Plan and Case 15 Filings_efb3348a.txt)) versus repeated admissions of
+   unresolved core mechanics in the same and preceding videos ([18](../TXT/18_20260824_CKC 3.0 Post Course Video 3 - Promissory Note Template and Various Payment Metho_e683da4a.txt), "this one is above my pay grade").
+6. **State citizenship as white-only vs. Black state citizens after Dred Scott.** The earlier
+   "state citizen = free white person" framing ([02](../TXT/02_...84335cec.txt)) against his new
+   concession that four states still treated Black residents as state citizens
+   ([19](../TXT/19_20261117_CKC 3.0 Post Course Video 4 - School Launch Plan and Case 15 Filings_efb3348a.txt), "which still permitted Negroes to be citizens of a state").
+7. **The sole proprietorship as vehicle vs. as plaintiff with its own damages and rights.**
+   ([17](../TXT/17_20260906_CKC 3.0 Post Course Video 2 - Federal Case Template for City of Glendale Round 5_29feaa19.txt), "SolProp has no physical flesh body" against "SolProp has suffered actual damages").
+8. **Revised advice without reconciling the earlier course.** Terminology ("natural person") and
+   the small-claims-first strategy are both walked back in [18](../TXT/18_20260824_CKC 3.0 Post Course Video 3 - Promissory Note Template and Various Payment Metho_e683da4a.txt) while earlier episodes
+   presented them as settled.
 
 ---
 
 ## Episodes by topic (cross-reference)
 
-- **Citizenship / legal fictions:** 01, 02, 03, 06, 08, 10, 11, 12, 16
+- **Citizenship / legal fictions:** 01, 02, 03, 06, 08, 10, 11, 12, 16, 17, 19
 - **Sole proprietorship / trust mechanics:** 01, 03, 06, 07, 08
-- **Negotiable instruments / UCC Article 3:** 01, 05, 06, 09, 10, 11
+- **Negotiable instruments / UCC Article 3:** 01, 05, 06, 09, 10, 11, 17, 18, 19
 - **Taxes / IRS procedure:** 01, 03, 06, 10, 11
 - **Foreign government / nation-building:** 04, 06, 07
 - **Driving vs. traveling / licensing:** 02, 03, 08, 12
-- **Litigation procedure / discovery / presumptions:** 01, 09, 10, 11, 12, 13, 15
-- **Contracts, consideration, trusts:** 07
+- **Litigation procedure / discovery / presumptions:** 01, 09, 10, 11, 12, 13, 15, 17, 19
+- **Contracts, consideration, trusts:** 07, 18
 - **Rules of professional conduct / judicial canons:** 14, 15
-- **Race, the 14th Amendment, political goals:** 16 (recurring undertone throughout 01–03, 08)
+- **Race, the 14th Amendment, political goals:** 16, 17, 18, 19 (recurring undertone throughout 01–03, 08)
 
 ## Notes
 

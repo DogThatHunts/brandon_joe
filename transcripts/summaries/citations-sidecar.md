@@ -1,7 +1,7 @@
 # Citation Sidecar — Brandon Joe Williams / CKC 3.0
 
-Every legal/tax/UCC/California-statute citation Brandon Joe references across all 16 transcripts
-(`transcripts/TXT/01`–`16`), grouped by category. Each entry shows the citation in canonical form
+Every legal/tax/UCC/California-statute citation Brandon Joe references across all 19 transcripts
+(`transcripts/TXT/01`–`19`; files 17–19 were added 2026-11-17 and are covered in Section 7), grouped by category. Each entry shows the citation in canonical form
 (plus his as-spoken/as-written form where it differs materially), the transcript file(s) it
 appears in with a locating quote, its resolution status, and whether it is already present in the
 shared master register (`~/Projects/law_sovereignty/_citation-register/register.json`) or new.
@@ -35,7 +35,7 @@ from the transcript alone — flagged for manual verification, no URL guessed).
 | McDonald v. City of Chicago, 561 U.S. 742 (2010) | "McDonald versus Chicago" | 01, 03 — "the Second Amendment right to bear arms was incorporated in 2010 in a case called McDonald versus Chicago" | Resolved (standard public cite) | **New** |
 | Strauder v. West Virginia, 100 U.S. 303 (1880) | "Strouder v. West Virginia... William Strong" | 02 | Resolved | **New** |
 | Hague v. Committee for Industrial Organization, 307 U.S. 496 (1939) | "Hague v. Committee for Industrial Organization" | 02 | Resolved | **Already in register** |
-| U.S. v. Valentine (unidentified) | "the only absolute and unqualified right of citizenship ... is to residents within the territorial boundaries" | 02 | **Unresolved / possible conflict.** Register already holds a different case, *Valentine v. United States ex rel. Neidecker* (extradition, 1936) — do **not** assume these are the same case; this quote's actual source could not be confirmed from the transcript and needs a human check against the register's existing `conflicts[]` convention before any merge. | **Conflict-flagged, not merged** |
+| U.S. v. Valentine (unidentified) | "the only absolute and unqualified right of citizenship ... is to residents within the territorial boundaries" | 02 | **Unresolved / possible conflict.** Register already holds a different case, *Valentine v. United States ex rel. Neidecker* (extradition, 1936) — do **not** assume these are the same case; this quote's actual source could not be confirmed from the transcript and needs a human check against the register's existing `conflicts[]` convention before any merge. | **Not the register's Neidecker case — quote not in that opinion (checked 2026-11-17); unidentified, see Section 7.1** |
 | John L. Lewis v. United States of America, 680 F.2d 1239 (9th Cir. 1982) | "John L. Lewis v. United States of America, Ninth Circuit Court of Appeals, 1982... Honorable Cecil F. Poole" | 01, 05, 10 — "we conclude that the Reserve Banks are not federal instrumentalities... but are independent, privately owned, and locally controlled corporations" | Resolved (standard public cite) | **New** |
 | Everson v. Board of Education, 330 U.S. 1 (1947) | "Everson the Board of Education, 330 us-1, 1947" | 03 | Resolved | **New** |
 | Hamilton v. Regents of the University of California, 293 U.S. 245 (1934) | "Hamilton V Regents of the University of California, 293 us-245" | 03 | Resolved | **New** |
@@ -143,6 +143,80 @@ to flag rather than invent a category unilaterally.
 - **E. de Vattel, *The Law of Nations*** (1758, various editions) — definitions of "resident," "domicile," and "peace," used throughout as a foundational secondary source. (02, 03, 04, 16) — public domain, widely available; not a register-trackable "citation" in the case/statute sense.
 - **Internal Revenue Manual (IRM)**, unspecified section(s) re: "authorization for the campus to settle the account of the taxpayer... using a bill of exchange... processed on Fedwire" — (06) — **Unresolved**, no specific IRM part/section number given in the transcript; flagged for manual verification, as the project brief requires before any pending-register entry.
 
+## 7. Files 17–19: CKC 3.0 Post Course Videos 2–4 (added 2026-11-17)
+
+Scanned 2026-11-17. **Merged the same day** into the shared register together with the 2026-11-12 file and the
+sibling `KL_on_RiceRadio` supplement (see the register's CHANGELOG, commit `f6ba310`); the staged file is now at
+`_citation-register/pending/merged/brandon_joe_2026-11-17.json`. UCC cites went into the new `ucc_sections` category.
+The "Register" column below describes status *before* that merge; everything marked New or "append" except the
+items under "Unresolved" was added or appended. Quotes are verbatim from the transcripts; where a case name was
+misheard in the audio the corrected name is the scanner's.
+
+### 7.1 Cases
+
+| Citation | As spoken | Files — locating quote | Status | Register |
+|---|---|---|---|---|
+| National Mutual Insurance Co. v. Tidewater Transfer Co., 337 U.S. 582 (1949) | "National Mutual Insurance Company versus Tidewater Transfer Company, 1949" | 17 — paired with Hepburn & Dundas as "the two main cases describing the operation of federal litigation with the disparity of citizenship" | Resolved (standard public cite; URL left null) | **New** |
+| Chicago, Burlington & Quincy R. Co. v. City of Chicago, 166 U.S. 226 (1897) | "Chicago, Burlington and Quincy Railroad Company. V. City of Chicago, 1897" | 17 — Fifth Amendment incorporation | Resolved | **New** |
+| Mapp v. Ohio, 367 U.S. 643 (1961) | "Matt V. Ohio, 1961" | 17 — Fourth Amendment incorporation | Resolved | Already in the 2026-11-12 pending file |
+| Gitlow v. New York, 268 U.S. 652 (1925) | "Get low V, New York 268 652 1925" | 17 — First Amendment incorporation | Resolved | Already in pending (11-12) |
+| Hamilton v. Regents of the University of California; Cantwell v. Connecticut | same | 17 — "you can list these two cases" for a free-exercise claim as a U.S. citizen | Resolved | Already in pending (11-12) |
+| Blonder-Tongue Laboratories v. University of Illinois Foundation, 402 U.S. 313 (1971) | "the Blondertongue Lab standards" | 19 — res judicata elements | Resolved — **confirmed 2026-11-17** from the filing: 402 U.S. 313, 323-24 (1971) | **New** |
+| Haines v. Kerner, 404 U.S. 519 (1972) | "Haynes versus Kerner" | 19 — leniency for pro se litigants | Resolved | Already in pending (11-12) as "Haynes v. Kerner" (note the spelling) |
+| In re Najour, 174 F. 735 (N.D. Ga. 1909) | "Henry Najour" / "Enri Nizhur" | 19 — "This is that case where the it was a Syrian guy. He was trying to be considered white" | Resolved — **confirmed 2026-11-17** from the filing: 174 F. 735 (N.D. Ga. 1909) | **New** |
+| Paul v. Virginia, 75 U.S. 168 (1869) | "Paul versus Virginia" | 17, 18, 19 — "corporations are not citizens within its meaning" | Resolved | Already in pending (11-12) — add files 17–19 |
+| Slaughterhouse Cases; Bradwell v. State; Van Valkenburgh v. Brown; Ex parte Knowles; Hepburn & Dundas v. Ellzey; Malloy v. Hogan; McDonald v. City of Chicago; Hurtado v. California | same | 17 (all but Hurtado); 18 (Hurtado); 19 (Slaughterhouse, Van Valkenburgh) | Resolved | Already in pending (11-12) — add files |
+| Santa Clara County v. Southern Pacific; Twining v. New Jersey; Downes v. Bidwell; Jones v. Temmer; Hague v. CIO; Dred Scott v. Sandford; U.S. v. Susan B. Anthony | same | 17, 19 (various) | Resolved | **Already in register** — append files 17/19 as sources |
+| Wong Kim Ark, 169 U.S. 649 (1898) | "Wong Kim Ark" | 17 — passing insult, no holding discussed | Name only | **New** (consider not adding) |
+
+**Unresolved / for human review**
+
+- **"U.S. v. Valentine"** (files 02, 19) — you asked to treat it as the register's *Valentine v. United States ex rel. Neidecker* and link it; the check you requested **failed**, so it is **not linked**. The full opinion text (Cornell LII) contains none of "absolute and unqualified," "territorial boundaries," "deport," "reentry" or "Puerto Rico," and file 19 says the case "comes out of ... Puerto Rico." Unverified lead from memory only: *United States v. Valentine*, 288 F. Supp. 957 (D.P.R. 1968). Needs a database search.
+- **The Fourth Circuit "sole proprietorship has no legal existence apart from its owner" case** (owner "Deeb," "RZS"). Quoted in the magistrate's R&R and attacked in his objections; caption not given. Probably *RZS Holdings AVV v. PDVSA Petroleo S.A.*, 506 F.3d 350 (4th Cir. 2007) — from the scanner's own knowledge, not the transcript.
+- An "1832 case" (18), a Ninth Circuit 2009 case on construing complaints (19), a D.C. "qualified immunity case for judges" (19): no names or cites given.
+- "US v. Crew Exchange" (17, 5–4 split): probably *U.S. v. Cruikshank* (already in the register), mis-transcribed.
+
+### 7.2 U.S. Code
+
+| Citation | Files — locating quote | Status | Register |
+|---|---|---|---|
+| 18 U.S.C. § 1595 | 17 — "private right of action in a civil case ... is available via 18 U.S.C. 1595" | Resolved (`usc` resolver) | **New** |
+| 28 U.S.C. § 1332 | 19 — "citizens of different states" | Resolved | **New** |
+| 28 U.S.C. § 1391(c)(2) | 19 — "an entity with the capacity to sue and be sued in its common name" | Resolved | **New** |
+| 4 U.S.C. § 72 | 17, 19 — "all offices attached to the seat of government shall be exercised in the District of Columbia" | Resolved | Already in pending (11-12) — add files |
+| 31 U.S.C. § 5103 | 17 — "legal tender in accordance with 31 U.S.C. 5103" | Resolved | Already in pending (11-12) |
+| 18 U.S.C. § 11 | 17, 18 — foreign-government definition | Resolved | Already in pending (11-12) |
+| 42 U.S.C. §§ 1981, 1982 | 17 — "two sections before 42 USC 1983 ..." (identified by description; he does not say the numbers) | Resolved by inference | Already in pending (11-12) |
+| 42 U.S.C. § 1983 | 17, 19 | Resolved | **Already in register** |
+| Title 25 U.S.C.; Title 8 U.S.C. | 17; 17 — "the backbone of all of Title VIII" (19) | Generic, no section | Not added |
+
+### 7.3 UCC / California Commercial Code
+
+These are the only citations in this file whose category now exists in the register (`ucc_sections`, currently empty). He cites the UCC in parallel
+with the California Commercial Code ("CCC 3-104") and, for federal filings, the D.C. Code ("28:3-104"); the register models the UCC form.
+
+| Section | Files — locating quote | Status |
+|---|---|---|
+| 1-305 | 18 — "remedies to be liberally administered" | Resolved (`ucc` resolver) |
+| 3-102 | 19 — "this division applies to negotiable instruments. It does not apply to money" | Resolved |
+| 3-104 (a)(1)–(3), (d) | 17, 18, 19 | Resolved |
+| 3-105 | 17, 18, 19 — "issue means the first delivery of an instrument" | Resolved |
+| 3-108(a), 3-205 | 18 — "automatically defaults to payable on demand" / "payable to bearer" | Resolved |
+| 3-302 | 18 — "holder in due course" (notarization language) | Resolved |
+| 3-303(b) | 18 — "issued without consideration" | Resolved |
+| 3-402(b) | 18 — "the representative is not liable on the instrument" | Resolved |
+| 3-414(b) | 18, 19 — "the drawer is obligated to pay the draft" | Resolved |
+| 3-502, 3-602, 3-603(b) | 18 | Resolved |
+| 9-307(h) | 18 — "the United States is located in the District of Columbia" | Resolved |
+
+### 7.4 Constitution, acts, rules, state law
+
+- **Constitution:** Art. I, § 10 (gold and silver as tender); Art. IV, § 2, cl. 1; Supremacy Clause (Art. VI); Amendments 1, 3, 4, 5, 6, 7, 9, 10, 13, 14, 15 (17, 18, 19) — all covered by existing register categories; sources to append.
+- **Acts of Congress (no existing register record):** Civil Rights Act of 1866 (17, 19); Naturalization Act of 1802 (17); Citizenship Act of 1924 (17).
+- **Rules (no register category):** Fed. R. Civ. P. 12(b)(6), 17(b)(3)(A), 23.2; Fed. R. Evid. 301; Supreme Court Rule 9.1; C.D. Cal. L.R. 7-3 (meet and confer).
+- **California (no register category):** Bus. & Prof. Code § 6067 (attorney's oath, 17); Evidence Code §§ 633, 634 (18); Code Civ. Proc. (successive actions on one contract; section not given, 19).
+- **Secondary:** a FOIA response from D.C. about where the "United States" is "located" (18, hosted on his own state-citizen-resources page); his own *Treatise on the Word "Person"* (17, 19) — not register-trackable.
+
 ## Summary counts
 
 - **Total distinct citations identified:** ~70 across cases, USC/CFR sections, UCC/CCC sections, constitutional provisions, and California state law.
@@ -150,7 +224,7 @@ to flag rather than invent a category unilaterally.
   U.S. v. Cruikshank; Downes v. Bidwell; Santa Clara County v. Southern Pacific RR; U.S. v. Susan
   B. Anthony; Hague v. CIO; Jones v. Temmer; 26 U.S.C. §7701; 26 U.S.C. §162; 26 U.S.C. §6331;
   42 U.S.C. §1983).
-- **New, resolved, staged in the pending file:** ~27 cases and USC/CFR sections (see
+- **New, resolved (staged 2026-11-12, merged 2026-11-17):** ~27 cases and USC/CFR sections (see
   `_citation-register/pending/brandon_joe_2026-11-12.json`).
 - **New but unresolved / flagged for human verification:** Madden v. "Commissioner" (likely Madden
   v. Kentucky — name/holding mismatch), "Heard v. Herge" (unconfirmed), U.S. v. Valentine
@@ -161,3 +235,8 @@ to flag rather than invent a category unilaterally.
   array, and California Code of Civil Procedure / Evidence Code / Vehicle Code / Rules of
   Professional Conduct / Rules of Court generally — flagged in Sections 3 and 5 above rather than
   silently added to an unrelated category.
+
+**Files 17–19 (2026-11-17):** 5 new cases, 3 new USC sections, 14 UCC sections and 3 Acts of Congress staged in
+`brandon_joe_2026-11-17.json`; 19 existing pending records and 10 existing register records gain sources. See Section 7. The UCC category now
+exists in the register, so the "no register category" statement above about UCC sections applies only to the 2026-11-12 file. Still-unresolved
+items from this pass are listed under 7.1.
